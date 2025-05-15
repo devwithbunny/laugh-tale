@@ -7,8 +7,8 @@ export default function Hero() {
       <NavBar />
       <div className="min-h-screen bg-[#000] text-[#FEFEFE]">
         <div className="  pt-[120px] pb-[50px] px-[24px]">
-          <h1 className="font-extrabold text-[30px] pb-[10px]">
-            How Laugh Tale Works
+          <h1 className="font-extrabold text-[40px] pb-[10px]">
+            How Laugh Tale Works?
           </h1>
           <p className="text-[16px]">
             Discover how to collect unique NFTs by exploring amazing

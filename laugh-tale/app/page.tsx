@@ -1,6 +1,7 @@
 import FeaturedDestinations from "@/components/FeaturedDestinations";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import JoinCommunity from "@/components/JoinCommunity";
 import NavBar from "@/components/NavBar";
 
 import WalletConnect from "@/components/WalletConnect";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <HowItWorks />
       <FeaturedDestinations />
+      <JoinCommunity />
     </>
   );
 }
