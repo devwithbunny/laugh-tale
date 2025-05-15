@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GiBoatFishing } from "react-icons/gi";
 
 export default function Hero() {
@@ -15,10 +16,12 @@ export default function Hero() {
           </p>
         </div>
         <div>
-          <button className="bg-[#6e40c9] hover:cursor-pointer   text-[16px] flex flex-row-reverse items-center gap-[10px] text-[#000] font-bold px-[12px] py-[6px] rounded-[6px]">
-            <GiBoatFishing className="text-[24px]" />
-            BEGIN JOURNEY
-          </button>
+          <Link href="/HowItWorks">
+            <button className="bg-[#6e40c9] hover:cursor-pointer   text-[16px] flex flex-row-reverse items-center gap-[10px] text-[#000] font-bold px-[12px] py-[6px] rounded-[6px]">
+              <GiBoatFishing className="text-[24px]" />
+              BEGIN JOURNEY
+            </button>
+          </Link>
         </div>
       </div>
     </main>

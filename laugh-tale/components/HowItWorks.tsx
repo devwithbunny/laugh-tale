@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { GiSupersonicArrow } from "react-icons/gi";
 
 export default function HowItWorks() {
@@ -13,7 +14,7 @@ export default function HowItWorks() {
         </div>
         <div className="w-full flex flex-col gap-[20px] pb-[30px]">
           <div className="border w-full h-[300px] flex flex-col items-center text-center justify-center p-[10px] rounded-[10px]">
-            <h1 className="pb-[20px] text-[50px] font-extrabold text-[#6e40c9]">
+            <h1 className="pb-[20px] text-[50px] font-extrabold  text-[#6e40c9]">
               1
             </h1>
             <p className="pb-[20px] text-[20px] font-extrabold ">
@@ -51,10 +52,12 @@ export default function HowItWorks() {
         </div>
 
         <div>
-          <button className="bg-[#6e40c9] hover:cursor-pointer text-[16px] flex flex-row-reverse items-center gap-[10px] text-[#000] font-bold px-[12px] py-[6px] rounded-[6px]">
-            <GiSupersonicArrow />
-            LEARN MORE
-          </button>
+          <Link href="/HowItWorks">
+            <button className="bg-[#6e40c9] hover:cursor-pointer   text-[16px] flex flex-row-reverse items-center gap-[10px] text-[#000] font-bold px-[12px] py-[6px] rounded-[6px]">
+              <GiSupersonicArrow />
+              LEARN MORE
+            </button>
+          </Link>
         </div>
       </div>
     </>
