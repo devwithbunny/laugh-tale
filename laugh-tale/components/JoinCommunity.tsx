@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function JoinCommunity() {
   return (
     <>
-      <div className="min-h-screen bg-[#000] px-[24px]">
+      <div className="min-h-screen bg-[#000] px-[24px] pb-[120px]">
         <div className="flex flex-col gap-[40px]">
           {/* left part */}
           <div className="flex flex-col gap-[40px]">
