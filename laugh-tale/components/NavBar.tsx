@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { VscCompassDot } from "react-icons/vsc";
 
 export default function GlassNavbar() {
@@ -10,21 +11,21 @@ export default function GlassNavbar() {
             <VscCompassDot className="" />
           </div>
           <div className="hidden lg:flex space-x-6 text-white text-sm font-medium">
-            <a href="#" className="hover:text-blue-300 transition">
+            <Link href="/" className="hover:text-blue-300 transition">
               HOME
-            </a>
-            <a href="#" className="hover:text-blue-300 transition">
+            </Link>
+            <Link href="#" className="hover:text-blue-300 transition">
               DESTINATIONS
-            </a>
-            <a href="#" className="hover:text-blue-300 transition">
+            </Link>
+            <Link href="/HowItWorks" className="hover:text-blue-300 transition">
               HOW IT WORKS
-            </a>
-            <a href="#" className="hover:text-blue-300 transition">
+            </Link>
+            <Link href="#" className="hover:text-blue-300 transition">
               COMMUNITY
-            </a>
-            <a href="#" className="hover:text-blue-300 transition">
+            </Link>
+            <Link href="#" className="hover:text-blue-300 transition">
               PROFILE
-            </a>
+            </Link>
           </div>
         </div>
       </div>
