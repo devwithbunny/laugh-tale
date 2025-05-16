@@ -1,7 +1,7 @@
 import NavBar from "@/components/NavBar";
 import { PiCheckCircle } from "react-icons/pi";
 
-export default function Hero() {
+export default function HowItWorks() {
   return (
     <>
       <NavBar />
